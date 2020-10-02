@@ -18,5 +18,6 @@ int main(void)
     (result == -1) ? printf("Element is not present in array") 
                    : printf("Element is present at index %d", 
                             result); 
+   printf("element is at  %d", result + 1); 
     return 0; 
 } 
